@@ -1,2 +1,20 @@
-# -Personal-Finance-Tracker
-Built a MERN app for tracking income, expenses, and budgeting with export and alert features.  Used JWT for auth, Chart.js for interactive graphs, and Context API for state management. Enabled transaction filtering, CSV export, and responsive mobile design
+# Personal Finance Tracker (MERN)
+
+## Setup
+
+1. Go to `/client` and run:
+   ```bash
+   npm install && npm start
+   ```
+
+2. Go to `/server` and run:
+   ```bash
+   npm install && node server.js
+   ```
+
+3. Configure `.env` file with Mongo URI and JWT secret.
+
+## Features
+- Track income, expenses, and budget
+- JWT auth, CSV export, alerts
+- Responsive dashboard with Chart.js
